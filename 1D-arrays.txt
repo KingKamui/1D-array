@@ -3,21 +3,45 @@ Questions
 You must give a short explanation for each answer.
 
 1) Create a reference to an array of integers named "cat".
+var cat1 = "chubby";
+var cat2 = "cubby";
+var cat3 = "fuffy";
+--var is an array code but var must have # values (1, 2 or 3 or higher).
+-not sure if it is suppose to start at 0.
+
 
 2) What is the output of the following code fragment?
 
-var cat = [2, 4, 6, 8];
+var cat = [
+    2,
+    4,
+    6,
+    8,
+];
+console.log(cat[0] + "text" + cat[1]);
+--inside the string, there needs to be a text to complete the order like an equation.
 
-console.log(cat[0] + " " + cat[1]);
 
 3) What is the output of the following code fragment?
 
-var y = [ , , , , , , , , , ];
+var y = [ 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+,
+];
 
 y[0] = 34;
 y[1] = 88;
 
-console.log(y[0] + " " + y[1] + " " + y[5]);
+console.log(y[0] + "text" + y[1] + "text" + y[5]);
+--
+
 
 4) What is the output of the following code fragment?
 
