@@ -3,22 +3,29 @@
 *
 * Return	Cars (array), Cars length	
 */
-function cars(){
+function cars(1,2,3){
 	var car1 = "Toyota";
 	var car2 = "Jeep Wrangler";
 	var car3 = "Mazda";
-
+  	return; cars(1,2,3)
 	//Create an array declaration named cars and set each car variable as the values.
-
+var arr= cars(1,2,3);
+	cars[0]= "Toyota";
+	cars[1]= "Jeep Wrangler";   
+	cars[2]= "Mazda";
 	//Print the created array
 
 	//Print the array length
-
+var cars=[
+	"Toyota",
+	"Jeep Wrangler",
+	"Mazda"
+	 ];
 	//Return the created array and the array length
-	return;
+	return; cars(1,2,3)
 }
 
-console.log(cars());
+console.log(cars(1,2,3));
 
 /*
 * Demonstrates array declarions by storing parameters into a single array.
@@ -28,13 +35,20 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
-
+var arr= order(1,2,3);
+	order[0]= "food";
+	order[1]= "drink";   
+	order[2]= "dessert";
 	//Print the array named "order"
 	
 	//Print the length of the array named "order"
-
+var orders=[
+	"food",
+	"drink",
+	"dessert"
+	 ];
 	//Return the order as a complete sentence represented as a string
-	return;
+	return; order(1,2,3)
 }
 
 console.log(order("Burger", "root beer", "frosty"));
@@ -57,11 +71,22 @@ var currentClasses = [
 */
 function loopToChange(classes){
 	//Print the parameter that is being passed through the function
-
+var arr= currentClasses(1,2,3,4,5,6,7);
+	currentClasses[0]= "Band";
+	currentClasses[1]= "Biology";   
+	currentClasses[2]= "Chemistry";
+	currentClasses[3]= "Orchestra";
+	currentClasses[4]= "Physical Education";   
+	currentClasses[5]= "Physics";
+	currentClasses[6]= "Web Development";
+	];
 	//Use a For loop to iterate through each value in the passed array
-	
+var i, len, text;
+for (i = 0, len = currentClasses.length, text = "";i < len; i++) {
+  console.log("Next is " + currentClasses[i]);
+}
 	//Return classes
-	return;
+	return; currentClasses(1,2,3,4,5,6,7)
 }
 
 console.log(loopToChange(currentClasses));
