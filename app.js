@@ -99,7 +99,7 @@ console.log(loopToChange(currentClasses));
 */
 function arrayMethodToLoop(numbers){
 	//Print the parameter that is being passed through the function
-
+	
 	//Use the forEach() method to add 5 to each value in the passed array
 	
 	//Return the changed array
