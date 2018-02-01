@@ -7,7 +7,7 @@ function cars(1,2,3){
 	var car1 = "Toyota";
 	var car2 = "Jeep Wrangler";
 	var car3 = "Mazda";
-  	return; cars(1,2,3)
+  	return cars(1,2,3)
 	//Create an array declaration named cars and set each car variable as the values.
 var arr= cars(1,2,3);
 	cars[0]= "Toyota";
@@ -22,7 +22,7 @@ var cars=[
 	"Mazda"
 	 ];
 	//Return the created array and the array length
-	return; cars(1,2,3)
+	return cars(1,2,3)
 }
 
 console.log(cars(1,2,3));
@@ -48,7 +48,7 @@ var orders=[
 	"dessert"
 	 ];
 	//Return the order as a complete sentence represented as a string
-	return; order(1,2,3)
+	return order(1,2,3)
 }
 
 console.log(order("Burger", "root beer", "frosty"));
@@ -86,7 +86,7 @@ for (i = 0, len = currentClasses.length, text = "";i < len; i++) {
   console.log("Next is " + currentClasses[i]);
 }
 	//Return classes
-	return; currentClasses(1,2,3,4,5,6,7)
+	return currentClasses(1,2,3,4,5,6,7)
 }
 
 console.log(loopToChange(currentClasses));
@@ -99,11 +99,11 @@ console.log(loopToChange(currentClasses));
 */
 function arrayMethodToLoop(numbers){
 	//Print the parameter that is being passed through the function
-	
+	var
 	//Use the forEach() method to add 5 to each value in the passed array
 	
 	//Return the changed array
-	return;
+	return
 }
 
 console.log(arrayMethodToLoop([5, 7, 3, 4, 5]));
@@ -126,7 +126,7 @@ function moreArrayMethods(priorities){
 	//Use the method push() to add a priority that is important to the success of this class and don't forget to sort() them afterwards!
 
 	//Return the changed array
-	return;
+	return
 }
 
 console.log(moreArrayMethods(["Zero Play", "Sleeping", "HW", "Work", "School", "Planning For Future", "Not Going to Class"]));
