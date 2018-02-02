@@ -14,18 +14,19 @@ var arr= cars(1,2,3);
 	cars[1]= "Jeep Wrangler";   
 	cars[2]= "Mazda";
 	//Print the created array
-
+console.log(cars)
 	//Print the array length
 var cars=[
 	"Toyota",
 	"Jeep Wrangler",
 	"Mazda"
 	 ];
+console.log(cars.length))
 	//Return the created array and the array length
 	return cars(1,2,3)
 }
 
-console.log(cars(1,2,3));
+console.log(cars());
 
 /*
 * Demonstrates array declarions by storing parameters into a single array.
@@ -40,13 +41,14 @@ var arr= order(1,2,3);
 	order[1]= "drink";   
 	order[2]= "dessert";
 	//Print the array named "order"
-	
+console.log(order)
 	//Print the length of the array named "order"
 var orders=[
 	"food",
 	"drink",
 	"dessert"
 	 ];
+console.log(order.length)
 	//Return the order as a complete sentence represented as a string
 	return order(1,2,3)
 }
